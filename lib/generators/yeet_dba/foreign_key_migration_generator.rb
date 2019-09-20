@@ -24,7 +24,7 @@ module YeetDba
     end
 
     def self.next_migration_number(_path)
-      Time.now.utc.strftime('%Y%m%d%H%M%S%L')
+      Time.now.utc.strftime('%Y%m%d%H%M%S')
     end
   end
 end
